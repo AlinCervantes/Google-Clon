@@ -1,0 +1,332 @@
+/*Estilo , margen, fondo del cuerpo*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://c.wallhere.com/photos/77/95/abstract_3D_Abstract_digital_art_dark_background_gradient_Blender_CGI-2308054.jpg!d');
+    /*background-color: #020000;*/
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+}
+
+/*Decoracion del texto cambios visibles en el pie de pagina*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Tamaños de la cabecera*/
+header{
+    width: 100%;
+    height: 60px;
+}
+/*Cabecera posicion de los elementos*/
+header nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+/*Cabecera parte derecha, los cambios son perceptibles cerca de la foto de perfil*/
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*GMAIL Y IMAGENES SUPERIOR*/
+nav .nav-right-section a{
+    margin-right: 30px;
+    color: #faf9fa;
+}
+
+/*Ajustes google superior derecha*/
+nav .nav-right-section .menu-icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/128/2504/2504719.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
+
+nav .nav-right-section .menu-icons{
+    background-image: url('https://cdn-icons-png.flaticon.com/128/5968/5968534.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+}
+/*Imagen foto de perfil tamaño y posicion*/
+nav .nav-right-section img {
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+}
+/*Tamaño y posicion de las letras Google*/
+main {
+    margin-top: 110px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 330px;
+    height: 120px;
+}
+/*Barra de busqueda posicion y tamaño*/
+main .main-input {
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/*Buscador de Google*/
+main .main-input-container{
+    width: 630px;
+    border-radius: 100px;
+    border: 1px solid #e4dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    /*Color del buscador*/
+    main .main-input input{
+        /*Separacion entre los icono que estan en el buscador*/
+        width: 500px; 
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: #02101d00;
+    }
+
+    /*Bordes del contenedor de busqueda*/
+    main .main-input-container:hover{
+        box-shadow: 0 1px 6px 0 #f6f6f7dc;
+        
+        border-color: #6f03fcfd;
+    }
+
+    /*Lupa de busqueda*/
+    main .main-input .search-icon{
+        /*background-image: url('https://img.icons8.com/android/24/000000/search.png');*/
+        background-image: url('https://cdn-icons-png.flaticon.com/128/4475/4475396.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+
+    }
+
+    /*Microfono cerca del buscador*/
+   main .main-input .micro-icon{
+        /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');*/
+        background-image: url('https://cdn-icons-png.flaticon.com/128/12225/12225822.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        
+    }
+/*Posicion de los botones que se encuentra debajo del buscador de google*/
+    main .main-buttons{
+        width: 530px;
+        margin: 0 auto;
+    }
+    main .main-buttons div {
+        display: inline-block;
+        
+    }
+    /*Botones de abajo del logo  de Google y buscador*/
+    main .main-buttons button {
+        height: 36px;
+        background-color: #06163571;
+        border: 0;
+        font-size: 14px;
+        color: #eaeff5;
+        border-radius: 80px;
+        padding: 0 15px;
+        margin-right: 15px;
+        
+    }
+
+    /*Botones prueba de las otras app que van abajo del buscador*/
+    main .more-apps .app1{
+        
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40px;
+        width: 40px;
+        border-color: white;
+        border: 30px;
+        border-radius: 20px;
+        background-image: url('https://img.icons8.com/?size=48&id=V1cbDThDpbRc&format=png');
+        background-size: contain;
+        background-color: no-repeat;
+
+
+    }
+    main .more-apps .app2{
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 40px;
+        width: 40px;
+        border-color: white;
+        border: 30px;
+        border-radius: 20px;
+        background-image: url('https://img.icons8.com/?size=48&id=iWw83PVcBpLw&format=png');
+        background-size: contain;
+        background-color: no-repeat;
+    }
+
+    main .more-apps .app3{
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 40px;
+        width: 40px;
+        border-color: white;
+        border: 3px;
+        border-radius: 20px;
+        background-image: url('https://img.icons8.com/?size=48&id=114445&format=png');
+        background-size: contain;
+        background-color: no-repeat;
+    }
+
+    main .more-apps .app4{
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 40px;
+        width: 40px;
+        border-color: white;
+        border: 3px;
+        border-radius: 20px;
+        background-image: url('https://img.icons8.com/?size=48&id=30843&format=png');
+        background-size: contain;
+        background-color: no-repeat;
+    }
+
+    main .more-apps .app5{
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 40px;
+        width: 40px;
+        border-color: white;
+        border: 3px;
+        border-radius: 20px;
+        background-image: url('https://img.icons8.com/?size=48&id=63306&format=png');
+        background-size: contain;
+        background-color: no-repeat;
+    }
+
+    main .more-apps button:hover{
+        border: 1px solid white;
+        box-shadow: 0 1px 1px #2802fd;
+        color: white;
+    }
+
+    /*Botones de abajo del buscador cuando te posicionas en ellos*/
+    main .main-buttons button:hover{
+        border: 1px solid #7b3ac5;
+        box-shadow: 0 1px 1px #4502fd;
+        color: rgb(255, 254, 254);
+    }
+
+    /*Esta es una prueba borrala si no funciona*/
+    main .Texto-imagen{
+        color: #e4dcdc;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        
+    }
+
+    main .Texto-imagen .imgT1{
+        color: #eaeff5;
+        margin-left: 5px;
+        
+    }
+
+    main .Texto-imagen .imgT2{
+        color: #eaeff5;
+        margin-left: 45px;
+        
+    }
+
+    main .Texto-imagen .imgT3{
+        color: #eaeff5;
+        margin-left: 52px;
+        
+    }
+
+    main .Texto-imagen .imgT4{
+        color: #eaeff5;
+        margin-left: 52px;
+        
+    }
+
+    main .Texto-imagen .imgT5{
+        color: #eaeff5;
+        margin-left: 43px;
+        margin-right: 45px;
+        
+    }
+
+    
+
+    /*Pie de pagina, diseño principal*/
+    footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 12px;
+        background-color: #0200006e;
+        border-top: 1px solid #f6f6f6;
+    }
+/*Lo deja en lista de no implementarse esta  parte del codigo, por lo tanto modifica la froma en que se ve la lista del pie de pagina*/
+    footer ul{
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        padding-left:0;
+    }
+
+/*Mueve la parte de privacidad, condiciones y preferencias*/
+/*Justificado parte izquierda del pide de pagina*/
+.footer-left {
+        justify-self: left;
+    }
+
+.footer-right {
+        justify-self: right;
+    }
+    /*Color opciones izquierda en el pie de pagina*/
+    footer ul li a {
+        margin: 10px;
+        color: #ebedf0;
+    }
